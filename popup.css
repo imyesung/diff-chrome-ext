@@ -1,0 +1,54 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 15px;
+  font-size: 14px;
+  line-height: 1.5;
+  width: 500px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* add this to wrap the content */
+}
+
+.input-wrapper {
+  flex: 1;
+  margin-right: 10px;
+  margin-bottom: 10px; /* add this to give space between input wrappers */
+}
+
+textarea {
+  width: 100%;
+  max-height: 300px; /* add this to limit the height of the textarea */
+  padding: 5px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+}
+
+#result {
+  margin-top: 15px;
+  overflow: auto;
+  max-height: 300px; /* add this to limit the height of the result div */
+  border: 1px solid #ccc;
+  padding: 10px;
+}
