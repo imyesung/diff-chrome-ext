@@ -16,18 +16,17 @@ h1 {
 
 .container {
   display: flex;
-  flex-wrap: wrap; /* add this to wrap the content */
+  flex-wrap: wrap;
+  gap: 10px; /* Use gap instead of margin-right and margin-bottom for input-wrapper */
 }
 
 .input-wrapper {
   flex: 1;
-  margin-right: 10px;
-  margin-bottom: 10px; /* add this to give space between input wrappers */
 }
 
 textarea {
   width: 100%;
-  max-height: 300px; /* add this to limit the height of the textarea */
+  max-height: 300px;
   padding: 5px;
   box-sizing: border-box;
   resize: none;
@@ -48,7 +47,7 @@ button:hover {
 #result {
   margin-top: 15px;
   overflow: auto;
-  max-height: 300px; /* add this to limit the height of the result div */
+  max-height: 300px;
   border: 1px solid #ccc;
   padding: 10px;
 }

@@ -3,7 +3,6 @@ export function loadDiffMatchPatch() {
     const script = document.createElement('script');
     script.src = 'diff_match_patch.js';
     script.onload = () => {
-      console.log('diff_match_patch.js loaded');
       resolve();
     };
     script.onerror = reject;
