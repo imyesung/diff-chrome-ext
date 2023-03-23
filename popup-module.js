@@ -1,6 +1,6 @@
-import { diffCheck } from './diff_match_patch.js';
+import { diff_match_patch } from './diff_match_patch.js';
 
-async function init() {
+export async function init() {
   try {
     console.log('Loading diff_match_patch.js library...');
 
@@ -42,4 +42,3 @@ async function init() {
 
 console.log('Initializing...');
 init();
-
